@@ -5,13 +5,15 @@ Interfaccia statica portatile per confrontare fino a quattro modelli OpenRouter.
 ## Avvio
 
 1. Copiare l'intera cartella sulla chiavetta USB.
-2. Avviare `start.bat` su Windows. Se Python è disponibile, viene usato un server locale su `127.0.0.1:8765`; altrimenti viene aperto direttamente `index.html`.
+2. Avviare il launcher del proprio sistema: `start.bat` su Windows, `start.command` su macOS oppure `start.sh` su Linux. I launcher usano un server locale su `127.0.0.1:8765`.
 3. Inserire una OpenRouter API key.
 4. Premere **Aggiorna modelli**, selezionare fino a quattro modelli e scegliere RAW, GODMODE o ULTRAPLINIAN LITE.
 
 Il filtro **solo modelli probabilmente uncensored** usa nome, descrizione e famiglia del catalogo OpenRouter aggiornato. **Auto: migliori 4 uncensored** sceglie automaticamente fino a quattro candidati disponibili, dando priorità ai modelli esplicitamente descritti come uncensored e poi alle famiglie note per una minore filtratura. La classificazione è euristica: disponibilità, comportamento e policy del provider possono cambiare e nessun modello è garantito come privo di rifiuti in ogni situazione.
 
 `index.html` può anche essere aperto direttamente. Alcune configurazioni del browser possono però limitare richieste di rete provenienti da pagine `file://`; il piccolo server locale evita questa differenza senza inviare dati a un server esterno.
+
+Su macOS, al primo avvio potrebbe essere necessario fare clic destro su `start.command` e scegliere **Apri**. Su Linux, se il file perde il permesso eseguibile durante l'estrazione, eseguire `chmod +x start.sh` una sola volta.
 
 ## Modalità
 

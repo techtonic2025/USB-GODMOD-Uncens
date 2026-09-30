@@ -54,6 +54,31 @@ Interroga parallelamente tutti i modelli selezionati con una direttiva orientata
 
 Il launcher usa un piccolo server HTTP locale quando trova un'installazione funzionante di Python. Nessun dato viene inviato al server locale. Se Python non è disponibile, apre direttamente `index.html`.
 
+### macOS
+
+1. Scaricare ed estrarre il repository.
+2. Avviare `start.command` con un doppio clic.
+3. Se macOS blocca il primo avvio, fare clic destro sul file, scegliere **Apri** e confermare l'apertura.
+
+Il launcher rileva `python3`, avvia il server esclusivamente su `127.0.0.1:8765` e apre automaticamente il browser.
+
+### Linux
+
+Da un terminale nella cartella del progetto:
+
+```bash
+./start.sh
+```
+
+Se il permesso eseguibile è stato perso durante l'estrazione:
+
+```bash
+chmod +x start.sh
+./start.sh
+```
+
+Il launcher rileva `python3` o `python`, avvia il server esclusivamente in locale e usa `xdg-open` per aprire il browser quando disponibile.
+
 ### Avvio senza launcher
 
 Aprire direttamente `index.html` con un browser moderno. Alcune configurazioni possono limitare le richieste di rete provenienti da pagine `file://`; in quel caso utilizzare `start.bat` o un normale server statico locale.
@@ -114,6 +139,8 @@ Il `localStorage` appartiene al browser e non alla chiavetta USB. I pulsanti **E
 USB-GODMOD-Uncens/
 ├── index.html                 # Applicazione completa HTML/CSS/JavaScript
 ├── start.bat                  # Launcher Windows
+├── start.command              # Launcher macOS
+├── start.sh                   # Launcher Linux
 ├── README.md                  # Documentazione principale
 ├── README-PORTABLE.md         # Note operative per la versione portatile
 ├── LICENSE                    # GNU AGPL v3.0
