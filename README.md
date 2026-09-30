@@ -4,6 +4,8 @@ Interfaccia portatile, open source e senza installazione per interrogare e confr
 
 Il progetto è pensato per essere copiato su una chiavetta USB oppure scaricato come archivio ZIP. Non contiene modelli AI e non esegue inferenze sul computer: il browser invia le richieste direttamente a OpenRouter usando la chiave API dell'utente.
 
+![Homepage di USB GODMOD Uncens](assets/homepage.png)
+
 > **Nota importante:** “uncensored” indica modelli descritti come poco filtrati o progettati per una maggiore libertà di risposta. Non garantisce che un modello risponda a qualsiasi richiesta: comportamento, policy e disponibilità dipendono dal modello e dal provider.
 
 ## Funzioni principali
