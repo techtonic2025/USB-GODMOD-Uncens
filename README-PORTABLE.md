@@ -11,6 +11,8 @@ Interfaccia statica portatile per confrontare fino a quattro modelli OpenRouter.
 
 Il filtro **solo modelli probabilmente uncensored** usa nome, descrizione e famiglia del catalogo OpenRouter aggiornato. **Auto: migliori 4 uncensored** sceglie automaticamente fino a quattro candidati disponibili, dando priorità ai modelli esplicitamente descritti come uncensored e poi alle famiglie note per una minore filtratura. La classificazione è euristica: disponibilità, comportamento e policy del provider possono cambiare e nessun modello è garantito come privo di rifiuti in ogni situazione.
 
+Dopo aver cercato e selezionato modelli diversi, attivare **Mostra solo i modelli selezionati** per visualizzare insieme la selezione finale. Il campo di ricerca viene azzerato automaticamente, così nessuno dei quattro modelli resta nascosto dal filtro precedente.
+
 `index.html` può anche essere aperto direttamente. Alcune configurazioni del browser possono però limitare richieste di rete provenienti da pagine `file://`; il piccolo server locale evita questa differenza senza inviare dati a un server esterno.
 
 Su macOS, al primo avvio potrebbe essere necessario fare clic destro su `start.command` e scegliere **Apri**. Su Linux, se il file perde il permesso eseguibile durante l'estrazione, eseguire `chmod +x start.sh` una sola volta.

@@ -13,6 +13,7 @@ Il progetto è pensato per essere copiato su una chiavetta USB oppure scaricato 
 - catalogo dei modelli caricato direttamente e in tempo reale da OpenRouter;
 - selezione manuale di uno, due, tre o quattro modelli;
 - filtro per mostrare soltanto modelli probabilmente uncensored o poco filtrati;
+- vista dedicata per mostrare insieme soltanto i modelli selezionati;
 - pulsante **Auto: migliori 4 uncensored**;
 - invio parallelo dello stesso prompt a tutti i modelli selezionati;
 - risposte visualizzate affiancate;
@@ -104,6 +105,10 @@ La priorità viene data a:
 4. famiglie come Cydonia, Euryale, Rocinante, MythoMax e simili, se presenti nel catalogo.
 
 Il catalogo viene aggiornato quando si preme **Aggiorna modelli**. La graduatoria è euristica e non costituisce una garanzia sul comportamento futuro.
+
+### Visualizzare la selezione finale
+
+È possibile cercare e selezionare i modelli uno alla volta. Al termine, attivare **Mostra solo i modelli selezionati**: la ricerca viene azzerata e l'elenco mostra insieme esclusivamente i modelli scelti. Lo stesso elenco appare anche nel menu sotto il prompt, dal quale si può interrogare un solo modello oppure tutti quelli selezionati.
 
 ## Costi
 
